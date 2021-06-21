@@ -1,0 +1,89 @@
+body{
+    text-align: center
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img{
+    width: 100%;
+    height: 300px;
+}
+
+.travel_mainDiv hr{
+    width: 100%
+}
+
+travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+
+#activitiesID{
+    
+    padding-bottom: 10px;
+}
+
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+movie_head i{
+    float: right;
+}
+
+.movie_text span{
+    color: #ff7700;
+}
+
+.enviornment_li{
+    margin-top:13px;
+}
+
+.envionment_li h4{
+    border-bottom: 1px solid white;
+    padding:8px;
+}
+
+.enviornment_li img{
+    border-radius:  25px;
+    height: 250px;
+}
+
+.enviorment_li p{
+    margin-top:10px;
+}
+
+.header_entrepreneur{
+    line-height:2;
+}
+
+.book{
+    cursor: pointer;
+}
+
+.book hr{
+    margin-bottom: 10px;
+}
+
+.book{
+    cursor: pointer;
+}
+
+.books hr{
+    margin-bottom: 10px;
+}
